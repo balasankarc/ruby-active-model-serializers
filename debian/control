@@ -1,0 +1,20 @@
+Source: ruby-active-model-serializers
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb
+Standards-Version: 3.9.5
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-active-model-serializers.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-active-model-serializers.git;a=summary
+Homepage: https://github.com/rails-api/active_model_serializers
+Testsuite: autopkgtest
+XS-Ruby-Versions: all
+
+Package: ruby-active-model-serializers
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+# activemodel (>= 3.2), rails (>= 3.2, development)
+Description: Bringing consistency and object orientation to model serialization. Works great for client-side MVC frameworks!
+ Making it easy to serialize models for client-side use
