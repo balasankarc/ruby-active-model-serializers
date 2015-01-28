@@ -1,5 +1,5 @@
-ruby-active-model-serializers (0.9.3-1) UNRELEASED; urgency=medium
+ruby-active-model-serializers (0.9.3-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #776500)
 
- -- Balasankar C <balasankarc@autistici.org>  Wed, 28 Jan 2015 23:32:43 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Wed, 28 Jan 2015 22:09:44 +0530
